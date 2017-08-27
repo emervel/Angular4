@@ -12,7 +12,7 @@ var hulk = {
     }
 };
 hulk.smash();
-// esto daria una salida undefeined
+// esto daria una salida undefeined porque el this dentro del function no coge las variables superiores
 var hulkFlecha = {
     nombre: "Hulk",
     smash: function () {
@@ -21,3 +21,4 @@ var hulkFlecha = {
     }
 };
 hulkFlecha.smash();
+// Con la funcion flecha puedo referirme a loas variables superiores usando el this
